@@ -15,7 +15,7 @@ pymongo
 marshmallow==3.14.1
 umongo
 motor
-httpx==0.24.1
+httpx
 
 #---ytdl----#
 youtube-search-python
