@@ -5,7 +5,7 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip install -r requirements.txt
-RUN pip install httpcore==0.15.0
+RUN pip install httpcore==0.16.0
 WORKDIR /app
 
 COPY . .
