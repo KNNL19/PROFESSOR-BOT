@@ -5,7 +5,7 @@ RUN apt install git -y
 COPY requirements.txt /requirements.txt
 
 RUN cd /
-RUN pip install -U pip && pip install -U -r requirements.txt
+RUN pip install -r requirements.txt
 RUN pip install httpcore==0.15.0
 WORKDIR /app
 
