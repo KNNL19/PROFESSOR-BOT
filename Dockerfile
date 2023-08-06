@@ -6,6 +6,7 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip install -U pip && pip install -U -r requirements.txt
+RUN pip install — upgrade httpcore
 WORKDIR /app
 
 COPY . .
