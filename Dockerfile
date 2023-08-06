@@ -5,9 +5,9 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip install -r requirements.txt
-RUN pip install httpcore==0.16.0
+RUN pip install httpcore==0.17.3
 WORKDIR /app
 
 COPY . .
 
-CMD ["python", "bot.py"]
+CMD ["python3", "bot.py"]
